@@ -1,0 +1,45 @@
+.hero_header{
+    background: url("../../assets/img/travel-hero.jpg") no-repeat;
+    background-size: cover;
+    height: calc(100vh - 61px);
+    & .search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #fff;
+        padding: 10px;
+        border-radius: 8px;
+        & input[type="search"]{
+            width: 70%;
+            padding: 15px;
+            border-radius: 8px;
+            outline: none;
+            border: none;
+        }
+        & input[type="submit"]{
+            padding: 5px;
+            border-radius: 8px;
+            width: 25%;
+            border: none;
+            cursor: pointer;
+            color: white;
+            font-weight: 600;
+            font-size: 22px;
+            background-color: rgb(27, 147, 194);
+            transition: 0.3s;
+            &:hover{
+                opacity: 0.8;
+            }
+        }
+    }
+    & .text {
+        margin-top: 100px;
+        color: #333;
+        & h1{
+            font-size: 45px;
+        }
+        & h2 {
+            font-size: 32px;
+        }
+    }
+}

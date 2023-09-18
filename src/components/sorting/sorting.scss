@@ -1,0 +1,9 @@
+.sorting .container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    .available {
+        display: flex;
+        align-items: center;
+    }
+}

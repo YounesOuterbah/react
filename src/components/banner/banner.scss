@@ -1,0 +1,13 @@
+
+.banner{
+    background: url(../../../public/tours/dubai1.jpg) no-repeat;
+    background-size: cover;
+    filter: grayscale(0.4);
+    height: 350px;
+    .container {
+        display: flex;
+        color: #ff0000;
+        align-items: center;
+        justify-content: center;
+    }
+}

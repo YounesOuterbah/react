@@ -1,0 +1,45 @@
+.tour-list .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    .box {
+        margin-top: 30px;
+        flex-direction: column;
+        width: 350px;
+        background-color: #fff;
+        border-radius: 6px;
+        overflow: hidden;
+        & img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        & .title {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        & span {
+            display: inline-block;
+            margin: 5px 0;
+        }
+        & .box_body{
+            padding: 10px;
+            & .button {
+                width: 100%;
+                margin-top: 5px;
+                border: 1px solid #333;
+                padding: 10px;
+                border-radius: 6px;
+                transition: 0.3s;
+                cursor: pointer;
+                &:hover{
+                    color: white;
+                    background: #333;
+                }
+            }
+            
+        }
+    }
+}
